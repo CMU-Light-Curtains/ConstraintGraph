@@ -1,0 +1,18 @@
+# KITTI Config
+
+CAMERA_PARAMS:
+  width: 1242
+  height: 375
+  fov: 81.16352842604304
+  fps: 53.72
+  # This matrix given in the README is not consistent with the
+  # compute_camera_instrics_matrix function.
+  # 'matrix': np.array([[725,   0, 620.5],
+  #                     [  0, 725, 187.0],
+  #                     [  0,   0,     1]], dtype=np.float32),
+  distortion: [0, 0, 0, 0, 0]
+
+LASER_PARAMS:
+  y: -3.0  # place laser 3m to the right of camera
+  max_omega: 14000
+  max_alpha: 5.0e+7

@@ -1,0 +1,47 @@
+CAMERA_PARAMS:
+  # translation
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  # rotation
+  roll: -90.0
+  pitch: 0.0
+  yaw: -90.0
+  # intrinsics
+  width: 512
+  height: 512
+  fov: 80
+  matrix: null  # will be computed automatically
+  # extrinsics
+  cam_to_world: null  # will be computed automatically
+  # speed
+  fps: 60
+  # others
+  limit: 1.0
+  distortion: [-0.033918, 0.027494, -0.001691, -0.001078, 0.000000]
+  hit_mode: 0
+  hit_noise: 0.
+
+LASER_PARAMS:
+  # translation
+  x: 0.0
+  y: -0.2  # 20cm to right of camera
+  z: 0.0
+  # rotation
+  roll: -90.0
+  pitch: 0.0
+  yaw: -90.0
+  # fov
+  fov: 80
+  # speeds
+  max_omega: 25000  # degrees per sec
+  max_alpha: 5.0e+7  # degrees per sec^2
+  # extrinsics
+  cam_to_laser: null
+  laser_to_world: null
+  # others
+  galvo_m: -2.2450289e+01
+  galvo_b: -6.8641598e-01
+  maxADC: 15000
+  thickness: 0.00055
+  divergence: 0.055

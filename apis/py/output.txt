@@ -1,0 +1,27 @@
+# Results of running planner.py
+
+PlannerV1:
+    XY (3m to right):
+        PLANNER: Max change in laser angle: 0.21°
+        PLANNER: Optimal cost         : 239.370
+                 Optimal laser penalty: 6.539
+
+    RT (20cm to right):
+        PLANNER: Max change in laser angle: 0.2100°
+        PLANNER: Optimal cost         : 368.347
+                 Optimal laser penalty: 5.061
+
+        Hit prob with [uniform sampling] and [threshold=0.8]: 0.3481717109680176
+        Hit prob with [linear sampling] and [threshold=0.8]: 0.9961970448493958
+
+PlannerV2:
+    XY (3m to right):
+        PLANNER: Max change in laser angle: 0.21°
+        PLANNER: Optimal cost         : 201.944
+
+    RT (20cm to right):
+        PLANNER: Max change in laser angle: 0.2100°
+        PLANNER: Optimal cost         : 224.011
+
+        Hit prob with [uniform sampling] and [threshold=0.8]: 0.8874065279960632
+        Hit prob with [linear sampling] and [threshold=0.8]: 0.9764958024024963

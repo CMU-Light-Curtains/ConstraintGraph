@@ -1,0 +1,11 @@
+CAMERA_PARAMS:
+  width: 400
+  height: 300
+  fov: 43.50395965576172
+  fps: 167.1
+  distortion: [0, 0, 0, 0, 0]
+
+LASER_PARAMS:
+  y: -0.2  # place laser 20cm to the right of camera
+  max_omega: 14000
+  max_alpha: 5.0e+7
